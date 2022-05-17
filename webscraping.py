@@ -20,3 +20,4 @@ for row in soup.find_all("tbody")[3].find_all("tr"):
         data = data.append(
             {"Name": name, "Market Cap (US$ Billion)": market_cap}, ignore_index=True
         )
+print(data)
